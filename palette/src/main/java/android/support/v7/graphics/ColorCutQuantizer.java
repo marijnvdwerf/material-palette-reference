@@ -81,7 +81,7 @@ final class ColorCutQuantizer {
      * @param colorHistogram histogram representing an image's pixel data
      * @param maxColors The maximum number of colors that should be in the result palette.
      */
-    private ColorCutQuantizer(ColorHistogram colorHistogram, int maxColors) {
+    ColorCutQuantizer(ColorHistogram colorHistogram, int maxColors) {
         final int rawColorCount = colorHistogram.getNumberOfColors();
         final int[] rawColors = colorHistogram.getColors();
         final int[] rawColorCounts = colorHistogram.getColorCounts();

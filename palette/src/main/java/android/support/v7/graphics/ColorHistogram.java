@@ -21,7 +21,7 @@ import java.util.Arrays;
 /**
  * Class which provides a histogram for RGB values.
  */
-final class ColorHistogram {
+class ColorHistogram {
 
     private final int[] mColors;
     private final int[] mColorCounts;
